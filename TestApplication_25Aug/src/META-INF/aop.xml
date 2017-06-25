@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+    <aspects>
+        <aspect name="com.hawkeye.aspects.TraceLoggingAspect"/>
+		<aspect name="com.hawkeye.aspects.DataBaseEventLoggingAspect"/>
+		<aspect name="com.hawkeye.aspects.WebServiceAspect"/>
+		<aspect name="com.hawkeye.aspects.JspEventsAspects"/>
+		<aspect name="com.hawkeye.aspects.ServletEventsAspects"/>
+    </aspects>
+</aspectj>
+
